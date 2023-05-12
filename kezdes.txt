@@ -1,0 +1,42 @@
+kapunk egy appit 
+
+https://www.github.com/valami/valami
+
+kell egy könyvtár 
+
+/dolgozat
+    api     (ide kel clone a git api)
+    webcode
+
+api ba belép 
+    1. npm install
+    2. npm start
+api beüzemelve 
+
+webcode belép 
+    1. npm init -y
+    2. script be = "start": "start lite-server"
+    3. src creat
+    4. bs-config.json ebe bele ={
+                                        "server": [
+                                        "src",
+                                        "node_modules/bootstrap/dist/css",
+                                        "node_modules/bootstrap/dist/js"
+                                    ]
+                                }
+
+git ignore file
+
+creat => .gitignore
+            node_modules/
+
+
+/src
+    app.js
+    index.html
+    style.css
+
+index.html be =>     <link rel="stylesheet" href="bootstrap.css">
+                     <link rel="stylesheet" href="style.css">
+                     <script src="bootstrap.js"></script>
+                     <script src="app.js"></script>
